@@ -1,0 +1,23 @@
+
+<!-Doctype HTML>
+
+<head>
+<link rel="stylesheet" type="text/css" href=" style1.css">
+<title>Cloud Coreo Example</title>
+</head>
+
+	<body>
+		<section>	
+			<form name="myForm" role="form" action="http://localhost:8080/FirstProject/Answer" method="get">
+				<input type="text" name="first">
+				<input type="text" name="second">
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+		<form method="post" action="http://localhost:8080/FirstProject/UploadServlet" enctype="multipart/form-data">
+			Select file to upload:
+			<input type="file" name="dataFile" id ="fileChooser"/><br/><br/>
+			<input type="submit" value="Upload" />
+		</form>
+	</body>
+</html>

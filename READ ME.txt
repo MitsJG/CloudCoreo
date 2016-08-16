@@ -1,0 +1,51 @@
+This project contains following files:
+1. FirstProject - logic of the question and Servlet to handle the requests
+2. READ ME.txt 
+
+
+
+
+The following are steps to run the program -------------->>>>>>>>>>>>>>>>>>>
+
+ 
+Step 1 -> 
+
+Software needed to be installed on the system:
+
+1. Java JDK 1.7 or above
+
+2. JRE8
+
+3. Eclipse Mars (http://www.eclipse.org/downloads/packages/release/Mars/M1)
+
+4. Apache TomCat Server (https://tomcat.apache.org/download-70.cgi)
+
+5. Apache Commons File Upload (http://archive.apache.org/dist/commons/fileupload/binaries/)
+
+Step 2 ->
+
+Once installation is done open Eclipse and copy the project (FirstProject) in Package Explorer.
+
+Step 3 ->
+
+After the project is copied start the TomCat Server.
+
+If everything is well then the TomCat server will start and there won't be any errors.
+
+Step 4 ->
+
+Go to link : http://localhost:8080/FirstProject/HTML/test.html
+
+Step 5 ->
+
+2 text boxes will load as required with a submit button beside
+
+Enter the values and you will be redirected to the output page.
+
+Step 6 ->
+
+Select file to upload button is present. Click on Choose File and select the .csv file.
+
+Step 7 ->
+
+Click on Upload to execute the contents of the file and answer would be displayed on broser.
